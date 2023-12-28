@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(177, 177, 177);
+}
+.container{
+    width: 50vw;
+    min-height: 50vh;
+    background-color:white;
+    margin:50px auto;
+    border-radius: 15px;
+    border-width: 1px;
+    padding: 30px;
+}
+.name{
+    display: flex;
+    gap:30px;
+}
+.fname,.lname{
+    display: flex;
+    flex-direction: column;
+}
+.fname input,.lname input{
+    width: 250px;
+    height: 25px;
+    border:1.2px solid grey;
+
+}
+.erole{
+    display: flex;
+    gap:30px;
+    margin-top: 15px;
+}
+.email,.job{
+    display: flex;
+    flex-direction: column;
+}
+.email input,.job input{
+    width: 250px;
+    height: 25px;
+    border:1.2px solid grey;
+
+}
+.city{
+    display: flex;
+    gap:30px;
+    margin-top: 15px;
+}
+.cityname,.pin{
+    display: flex;
+    flex-direction: column;
+}
+.email input,.job input{
+    width: 250px;
+    height: 25px;
+    border:1.2px solid grey;
+
+}
+.date{
+    display: flex;
+    gap:30px;
+    margin-top: 15px;
+}
+.address{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 100px;
+    height: 23px;
+    border-radius: 5px ;
+    background-color: orangered;
+    border:1px solid orangered;
+    cursor: pointer;
+    
+}
+.apply{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: grey;
+    color: white;
+}
+@media screen and (max-width:600px)
+{
+    .name{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    .erole{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    .city{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    .date{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+}
